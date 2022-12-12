@@ -70,11 +70,10 @@ video {
 // }
 
 body {
-  font-family: "PPAgrandir";
-  font-weight: 400;
-  font-style: normal;
+  font-family: PPAgrandirVariable;
   font-size: 16px;
-  color: red;
+  color: #ff0000;
+  letter-spacing: 0;
 }
 
 @media (max-width: 576px) {
@@ -176,4 +175,32 @@ h2 {
 
 .card-coffee {
   margin: 10px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.coffee-adresse {
+  padding-right: 160px;
+}
+
+h3 {
+  font-family: PPAgrandirVariable_Bold;
+  font-size: 20px;
+  color: #ff0000;
+  letter-spacing: 0;
+}
+
+footer {
+  background-color: red;
+  font-family: PPAgrandirVariable_Bold;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.contact-title {
+  color: white;
 }
