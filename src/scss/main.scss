@@ -213,3 +213,18 @@ footer {
 .hourly-title {
   margin-bottom: 10px;
 }
+
+.container-fluid {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.image-mountain {
+  padding-bottom: 20px;
+}
+
+.galerie-image {
+  height: 100%;
+  object-fit: cover;
+}
