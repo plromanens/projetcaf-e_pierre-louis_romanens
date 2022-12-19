@@ -413,3 +413,41 @@ a:hover {
 #menutoggle input:checked ~ ul {
   transform: none;
 }
+.title-section {
+  margin-top: 100px;
+}
+
+.hover-title {
+}
+
+.hover-image {
+  display: none;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+  display: flex;
+  pointer-events: none;
+}
+
+.hover-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  // z-index à gerer si marche pas
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  height: 95vh;
+}
+
+.hover-image img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  margin-bottom: 0;
+}
