@@ -60,15 +60,6 @@ video {
 /* ====================================
 // font
 // ==================================== */
-
-// .row > .col,
-// .row > [class^="col-"] {
-//   padding-top: 12px;
-//   padding-bottom: 12px;
-//   background-color: rgba(86, 61, 124, 0.15);
-//   border: 1px solid rgba(86, 61, 124, 0.2);
-// }
-
 body {
   font-family: PPAgrandirVariable;
   font-size: 16px;
@@ -180,10 +171,8 @@ h2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding: 102px;
-  // filter: blur(2px) brightness(80%);
+  padding: 102px 0px;
 }
-// au pire mettre du flou sur ps
 
 .card-coffee {
   margin: 100px 0;
@@ -435,7 +424,6 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  // z-index à gerer si marche pas
   pointer-events: none;
   flex-direction: column;
   align-items: center;
